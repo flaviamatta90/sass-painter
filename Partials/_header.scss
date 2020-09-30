@@ -1,0 +1,12 @@
+header {
+  display: flex;
+  justify-content: space-between;
+
+  .main-nav{
+    background-color: $mainColor: #101010;
+    
+    .menu-list{
+      @include listInline;
+    }
+  }
+}
