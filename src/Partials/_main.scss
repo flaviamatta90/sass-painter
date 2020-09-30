@@ -1,0 +1,70 @@
+main {
+  width: 100%;
+  height: 400px;
+  // background-image: url("../../../img/hero.jpg");
+
+  .hero{
+    display: flex;
+    justify-content: center;
+
+    .left_hero{
+      display: flex;
+      justify-content: flex-end;
+      right: 0;
+      width: 60%;
+      background-color: blue;
+      padding: 10px;
+
+      .inside_left{
+        padding: 40px;
+        color: $moreColor;
+
+
+        h2{
+          padding: 20px 0;
+        }
+
+        .hero-list{
+          list-style: none;
+
+          li{
+            padding: 10px 10px;
+
+            a{
+              @include aColorList;
+              color: $moreColor;
+              padding: 10px;
+
+              i{
+                font-size: 13px;
+              }
+            }
+          }
+        }
+        button{
+          display: flex;
+          color: $moreColor;
+          background-color: #666666;
+          margin-top: 25px;
+          margin-left: 15px;
+          padding: 10px;
+
+          .left-button{
+            border-right: 2px solid $moreColor;
+            margin: 0 10px;
+            padding: 0 10px;
+          }
+          
+          i{
+            font-size: 25px;
+          }
+        }
+      }
+    }
+
+    .right_hero{
+      width: 40%;
+      background-color: #000;
+    }
+  }
+}
