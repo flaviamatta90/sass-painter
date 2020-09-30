@@ -66,9 +66,17 @@ body header .container .main-nav .header-list li {
 body header .container .main-nav .header-list li a {
   color: #fff;
   text-decoration: none;
+  padding: 10px;
 }
 
 body header .container .main-nav .header-list li a i {
   font-size: 13px;
+}
+
+body header .container .main-nav .header-list li a:hover {
+  padding: 20px 10px;
+  border-radius: 2px;
+  background-color: #fff;
+  color: #000;
 }
 

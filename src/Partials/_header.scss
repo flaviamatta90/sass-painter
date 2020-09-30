@@ -45,14 +45,23 @@ body{
           li{
             padding: 0 10px;
 
-            a{
-              @include aColorList;
+              a{
+                @include aColorList;
+                padding: 10px;
 
-              i{
-                font-size: 13px;
+                i{
+                  font-size: 13px;
+                }
+
               }
-
+              a:hover{
+                padding: 20px 10px;
+                border-radius: 2px;
+                background-color: #fff;
+                color: #000;
             }
+
+
           }
         }
       }
