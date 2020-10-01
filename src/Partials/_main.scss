@@ -101,19 +101,16 @@ main {
       @include listInline;
       align-items: center;
 
-      li:first-child{
-        border-bottom: 2px solid black;
-        padding: 10px 0;
-      }
-
       a{
         @include aColorList;
         color:#555555;
         padding: 10px 0;
       }
-
+      li:first-child a {
+        border-bottom: 3px solid black;
+        padding: 10px 0;
+      }
     }
-
+    
   }
-
 }
