@@ -260,3 +260,13 @@ section .section-container {
   float: right;
   margin-right: 35px;
 }
+
+.parallax {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-image: url("../img/walkman.jpeg");
+  background-attachment: fixed;
+  min-width: 100%;
+}

@@ -44,7 +44,12 @@ section{
       }
 
     }
-
-
   }
+}
+
+.parallax{
+  @include imgBackground;
+  background-image: url("../img/walkman.jpeg");
+  background-attachment: fixed;
+  min-width: 100%;
 }
