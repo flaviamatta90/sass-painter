@@ -229,8 +229,34 @@ section .section-container {
 .second-section .second-section-container .inside-section h2, .second-section .second-section-container .inside-section h4 {
   color: #333333;
 }
-.second-section .second-section-container .inside-section img {
+.second-section .second-section-container .inside-section .howl .fa-angle-left {
+  width: 35px;
+  height: 35px;
+  padding: 0 8px;
+  margin-top: 25%;
+  font-size: 35px;
+  border-radius: 50%;
+  background-color: #e74500;
+  vertical-align: middle;
+  color: #fff;
+  float: left;
+  margin-left: 35px;
+}
+.second-section .second-section-container .inside-section .howl img {
   margin: auto;
   width: 80%;
-  margin-left: 10%;
+  margin-left: 5%;
+}
+.second-section .second-section-container .inside-section .howl .fa-angle-right {
+  width: 35px;
+  height: 35px;
+  padding: 0 8px;
+  margin-top: 25%;
+  font-size: 35px;
+  border-radius: 50%;
+  background-color: #e74500;
+  vertical-align: middle;
+  color: #fff;
+  float: right;
+  margin-right: 35px;
 }

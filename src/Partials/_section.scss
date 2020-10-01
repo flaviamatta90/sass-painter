@@ -21,12 +21,28 @@ section{
         color: #333333;
       }
 
+      .howl{
 
-      img{
-        margin: auto;
-        width: 80%;
-        margin-left: 10%;
+        .fa-angle-left{
+          @include arrow;
+          float: left;
+          margin-left: 35px;
+        }
+
+        img{
+          margin: auto;
+          width: 80%;
+          margin-left: 5%;
+        }
+
+        .fa-angle-right{
+          @include arrow;
+          float: right;
+          margin-right: 35px;
+
+        }
       }
+
     }
 
 
