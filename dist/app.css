@@ -7,29 +7,29 @@
   cursor: pointer;
 }
 
-.second-section .second-section-container .inside-section, section .section-container .inside-section {
+.third-section .third-section-container .inside-section, .second-section .second-section-container .inside-section, section .section-container .inside-section {
   width: 70%;
   margin: auto;
 }
-.second-section .second-section-container .inside-section h2, section .section-container .inside-section h2 {
+.third-section .third-section-container .inside-section h2, .second-section .second-section-container .inside-section h2, section .section-container .inside-section h2 {
   font-size: 30px;
   text-align: center;
   color: #fff;
   padding-top: 100px;
 }
-.second-section .second-section-container .inside-section h4, section .section-container .inside-section h4 {
+.third-section .third-section-container .inside-section h4, .second-section .second-section-container .inside-section h4, section .section-container .inside-section h4 {
   text-align: center;
   color: #fff;
   padding: 30px;
   max-width: 70%;
   margin: auto;
 }
-.second-section .second-section-container .inside-section .pdf, section .section-container .inside-section .pdf {
+.third-section .third-section-container .inside-section .pdf, .second-section .second-section-container .inside-section .pdf, section .section-container .inside-section .pdf {
   text-align: center;
   color: #fff;
   padding: 20px;
 }
-.second-section .second-section-container .inside-section .pdf i, section .section-container .inside-section .pdf i {
+.third-section .third-section-container .inside-section .pdf i, .second-section .second-section-container .inside-section .pdf i, section .section-container .inside-section .pdf i {
   border-radius: 100%;
   border: 1px solid #fff;
   vertical-align: middle;
@@ -38,7 +38,7 @@
   font-size: 20px;
   padding: 5px;
 }
-.second-section .second-section-container .inside-section img, section .section-container .inside-section img {
+.third-section .third-section-container .inside-section img, .second-section .second-section-container .inside-section img, section .section-container .inside-section img {
   margin-left: 5%;
 }
 
@@ -261,12 +261,17 @@ section .section-container {
   margin-right: 35px;
 }
 
-.parallax {
+section .parallax {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100%;
   background-image: url("../img/walkman.jpeg");
-  background-attachment: fixed;
   min-width: 100%;
+  height: 500px;
+  background-attachment: fixed;
+}
+
+.third-section .third-section-container {
+  background-color: #222222;
 }
