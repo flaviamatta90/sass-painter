@@ -62,6 +62,35 @@ section{
 
     .inside-section{
       @extend %sectionCompiled;
+      img{
+        margin-left: 10%;
+        max-width: 80%;
+      }
+
+      .troll{
+        @include displayFlex;
+        width: 100%;
+        margin-top: 100px;
+
+        &-text{
+          width: 50%;
+          h2{
+            text-align: left;
+          }
+          h4{
+            text-align: left;
+            padding: 30px 0;
+            max-width: 75%;
+            margin: 0;
+
+          }
+        }
+        &-img{
+          img{
+            width: 90%;
+          }
+        }
+      }
     }
   }
 }

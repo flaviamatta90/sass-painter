@@ -10,6 +10,7 @@
 .third-section .third-section-container .inside-section, .second-section .second-section-container .inside-section, section .section-container .inside-section {
   width: 70%;
   margin: auto;
+  line-height: 30px;
 }
 .third-section .third-section-container .inside-section h2, .second-section .second-section-container .inside-section h2, section .section-container .inside-section h2 {
   font-size: 30px;
@@ -274,4 +275,29 @@ section .parallax {
 
 .third-section .third-section-container {
   background-color: #222222;
+}
+.third-section .third-section-container .inside-section img {
+  margin-left: 10%;
+  max-width: 80%;
+}
+.third-section .third-section-container .inside-section .troll {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 100px;
+}
+.third-section .third-section-container .inside-section .troll-text {
+  width: 50%;
+}
+.third-section .third-section-container .inside-section .troll-text h2 {
+  text-align: left;
+}
+.third-section .third-section-container .inside-section .troll-text h4 {
+  text-align: left;
+  padding: 30px 0;
+  max-width: 75%;
+  margin: 0;
+}
+.third-section .third-section-container .inside-section .troll-img img {
+  width: 90%;
 }
