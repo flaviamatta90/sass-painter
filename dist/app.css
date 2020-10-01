@@ -267,10 +267,10 @@ section .parallax {
   background-size: cover;
   background-position: center;
   height: 100%;
-  background-image: url("../img/walkman.jpeg");
   min-width: 100%;
   height: 500px;
   background-attachment: fixed;
+  background-image: url("../img/walkman.jpeg");
 }
 
 .third-section .third-section-container {
@@ -300,4 +300,15 @@ section .parallax {
 }
 .third-section .third-section-container .inside-section .troll-img img {
   width: 90%;
+}
+
+section .second-parallax {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  min-width: 100%;
+  height: 500px;
+  background-attachment: fixed;
+  background-image: url("../img/eys.jpeg");
 }
