@@ -7,6 +7,41 @@
   cursor: pointer;
 }
 
+.second-section .second-section-container .inside-section, section .section-container .inside-section {
+  width: 70%;
+  margin: auto;
+}
+.second-section .second-section-container .inside-section h2, section .section-container .inside-section h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  padding-top: 100px;
+}
+.second-section .second-section-container .inside-section h4, section .section-container .inside-section h4 {
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+  max-width: 70%;
+  margin: auto;
+}
+.second-section .second-section-container .inside-section .pdf, section .section-container .inside-section .pdf {
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+.second-section .second-section-container .inside-section .pdf i, section .section-container .inside-section .pdf i {
+  border-radius: 100%;
+  border: 1px solid #fff;
+  vertical-align: middle;
+  width: 34px;
+  height: 34px;
+  font-size: 20px;
+  padding: 5px;
+}
+.second-section .second-section-container .inside-section img, section .section-container .inside-section img {
+  margin-left: 5%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -181,7 +216,6 @@ main .main-nav .hero-list li:first-child a {
 }
 
 section .section-container {
-  background-color: #101010;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -189,37 +223,14 @@ section .section-container {
   background-image: url("../img/bg-section-start.jpg");
   width: 100%;
 }
-section .section-container .inside-section {
-  width: 70%;
+.second-section .second-section-container {
+  background-color: #fff;
+}
+.second-section .second-section-container .inside-section h2, .second-section .second-section-container .inside-section h4 {
+  color: #333333;
+}
+.second-section .second-section-container .inside-section img {
   margin: auto;
-}
-section .section-container .inside-section h2 {
-  font-size: 30px;
-  text-align: center;
-  color: #fff;
-  padding-top: 100px;
-}
-section .section-container .inside-section h4 {
-  text-align: center;
-  color: #fff;
-  padding: 30px;
-  max-width: 70%;
-  margin: auto;
-}
-section .section-container .inside-section .pdf {
-  text-align: center;
-  color: #fff;
-  padding: 20px;
-}
-section .section-container .inside-section .pdf i {
-  border-radius: 100%;
-  border: 1px solid #fff;
-  vertical-align: middle;
-  width: 34px;
-  height: 34px;
-  font-size: 20px;
-  padding: 5px;
-}
-section .section-container .inside-section img {
-  margin-left: 5%;
+  width: 80%;
+  margin-left: 10%;
 }
