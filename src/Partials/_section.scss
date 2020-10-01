@@ -1,12 +1,48 @@
 section{
-  background-color: black;
-  height: 300px;
-  width: 100%;
+  .section-container{
+    background-color: #101010;
+    @include imgBackground;
+    background-image:url("../img/bg-section-start.jpg");
+    width: 100%;
 
-  h2{
-    font-size: 30px;
-    text-align: center;
-    color: $moreColor;
-    padding-top: 100px;
+    .inside-section{
+      width: 70%;
+      margin: auto;
+
+      h2{
+        font-size: 30px;
+        text-align: center;
+        color: $moreColor;
+        padding-top: 100px;
+      }
+
+      h4{
+        text-align: center;
+        color: $moreColor;
+        padding: 30px;
+        max-width: 70%;
+        margin: auto;
+      }
+
+      .pdf{
+        text-align: center;
+        color: $moreColor;
+        padding: 20px;
+
+        i{
+          border-radius: 100%;
+          border: 1px solid $moreColor;
+          vertical-align: middle;
+          width: 34px;
+          height: 34px;
+          font-size: 20px;
+          padding: 5px;
+        }
+      }
+      img{
+        margin-left: 5%;
+      }
+    }
   }
+
 }
