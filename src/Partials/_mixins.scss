@@ -1,6 +1,6 @@
 @mixin listInline {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   list-style: none;
@@ -8,4 +8,29 @@
 
 @mixin aColorList{
   text-decoration: none;
+}
+
+@mixin imgBackground{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+@mixin noStyle{
+  list-style: none;
+}
+
+@mixin displayFlex{
+  display: flex;
+  justify-content: space-between;
+}
+
+%btnBase{
+  display: flex;
+  color: $moreColor;
+  margin-top: 25px;
+  margin-left: 15px;
+  padding: 10px;
+  cursor: pointer;
 }

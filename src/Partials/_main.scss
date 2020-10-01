@@ -1,31 +1,28 @@
 main {
   width: 100%;
-  height: 400px;
-  // background-image: url("../../../img/hero.jpg");
 
   .hero{
-    display: flex;
+    @include imgBackground;
+    @include displayFlex;
     justify-content: center;
+    background-image: url("../img/hero.jpg");
 
     .left_hero{
       display: flex;
       justify-content: flex-end;
       right: 0;
       width: 60%;
-      background-color: blue;
-      padding: 10px;
 
       .inside_left{
         padding: 40px;
         color: $moreColor;
-
 
         h2{
           padding: 20px 0;
         }
 
         .hero-list{
-          list-style: none;
+          @include noStyle;
 
           li{
             padding: 10px 10px;
@@ -41,20 +38,16 @@ main {
             }
           }
         }
-        button{
-          display: flex;
-          color: $moreColor;
+        .btn-main-left{
+          @extend %btnBase;
           background-color: #666666;
-          margin-top: 25px;
-          margin-left: 15px;
-          padding: 10px;
 
           .left-button{
             border-right: 2px solid $moreColor;
             margin: 0 10px;
             padding: 0 10px;
           }
-          
+
           i{
             font-size: 25px;
           }
@@ -64,7 +57,39 @@ main {
 
     .right_hero{
       width: 40%;
-      background-color: #000;
+
+      .inside-right{
+       @include displayFlex;
+        background: rgba(0, 0, 0, 0.8);
+        width: 75%;
+        height: 91%;
+        margin-top: 30px;
+        margin-left: 30px;
+
+        .list-right{
+
+          .hero-list{
+            @include noStyle;
+            color: $moreColor;
+            padding: 30px;
+
+            li{
+              padding: 20px;
+            }
+          }
+
+          .btn-main-right{
+            @extend %btnBase;
+            background-color: #009cff;
+            margin: 0 50px;
+            padding: 10px 40px;
+        }
+        }
+
+        .logo-right{
+          padding: 30px;
+        }
+      }
     }
   }
 }

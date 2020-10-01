@@ -2,8 +2,6 @@ body{
   font-family: 'Roboto', sans-serif;
 
   header {
-    display: flex;
-    justify-content: space-between;
     background-color: $mainColor;
 
     .container{
@@ -30,6 +28,10 @@ body{
                 padding-right: 5px;
               }
             }
+            a:hover{
+              text-decoration: underline;
+              color: $moreColor;
+            }
           }
         }
       }
@@ -37,7 +39,7 @@ body{
 
         .header-list{
           @include listInline;
-            height: 70px;
+            height: 100px;
             width: 90%;
             margin: auto;
 

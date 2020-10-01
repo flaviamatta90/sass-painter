@@ -1,3 +1,12 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css);main .hero .right_hero .inside-right .list-right .btn-main-right, main .hero .left_hero .inside_left .btn-main-left {
+  display: flex;
+  color: #fff;
+  margin-top: 25px;
+  margin-left: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,71 +16,61 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-
 body header {
-  display: flex;
-  justify-content: space-between;
   background-color: #101010;
 }
-
 body header .container {
   width: 90%;
   margin: auto;
 }
-
 body header .container .contact {
   display: flex;
   justify-content: flex-end;
   height: 50px;
 }
-
 body header .container .contact .header-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   list-style: none;
 }
-
 body header .container .contact .header-list li {
   padding: 0 10px;
 }
-
 body header .container .contact .header-list li a {
   text-decoration: none;
   color: #fff;
 }
-
 body header .container .contact .header-list li a i {
   color: #009cff;
   padding-right: 5px;
 }
-
+body header .container .contact .header-list li a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
 body header .container .main-nav .header-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   list-style: none;
-  height: 70px;
+  height: 100px;
   width: 90%;
   margin: auto;
 }
-
 body header .container .main-nav .header-list li {
   padding: 0 10px;
 }
-
 body header .container .main-nav .header-list li a {
   text-decoration: none;
   color: #fff;
   padding: 10px;
 }
-
 body header .container .main-nav .header-list li a i {
   font-size: 13px;
 }
-
 body header .container .main-nav .header-list li a:hover {
   padding: 20px 10px;
   border-radius: 2px;
@@ -81,71 +80,80 @@ body header .container .main-nav .header-list li a:hover {
 
 main {
   width: 100%;
-  height: 400px;
 }
-
 main .hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
   display: flex;
+  justify-content: space-between;
   justify-content: center;
+  background-image: url("../img/hero.jpg");
 }
-
 main .hero .left_hero {
   display: flex;
   justify-content: flex-end;
   right: 0;
   width: 60%;
-  background-color: blue;
-  padding: 10px;
 }
-
 main .hero .left_hero .inside_left {
   padding: 40px;
   color: #fff;
 }
-
 main .hero .left_hero .inside_left h2 {
   padding: 20px 0;
 }
-
 main .hero .left_hero .inside_left .hero-list {
   list-style: none;
 }
-
 main .hero .left_hero .inside_left .hero-list li {
   padding: 10px 10px;
 }
-
 main .hero .left_hero .inside_left .hero-list li a {
   text-decoration: none;
   color: #fff;
   padding: 10px;
 }
-
 main .hero .left_hero .inside_left .hero-list li a i {
   font-size: 13px;
 }
-
-main .hero .left_hero .inside_left button {
-  display: flex;
-  color: #fff;
+main .hero .left_hero .inside_left .btn-main-left {
   background-color: #666666;
-  margin-top: 25px;
-  margin-left: 15px;
-  padding: 10px;
 }
-
-main .hero .left_hero .inside_left button .left-button {
+main .hero .left_hero .inside_left .btn-main-left .left-button {
   border-right: 2px solid #fff;
   margin: 0 10px;
   padding: 0 10px;
 }
-
-main .hero .left_hero .inside_left button i {
+main .hero .left_hero .inside_left .btn-main-left i {
   font-size: 25px;
 }
-
 main .hero .right_hero {
   width: 40%;
-  background-color: #000;
 }
-
+main .hero .right_hero .inside-right {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.8);
+  width: 75%;
+  height: 91%;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+main .hero .right_hero .inside-right .list-right .hero-list {
+  list-style: none;
+  color: #fff;
+  padding: 30px;
+}
+main .hero .right_hero .inside-right .list-right .hero-list li {
+  padding: 20px;
+}
+main .hero .right_hero .inside-right .list-right .btn-main-right {
+  background-color: #009cff;
+  margin: 0 50px;
+  padding: 10px 40px;
+}
+main .hero .right_hero .inside-right .logo-right {
+  padding: 30px;
+}
