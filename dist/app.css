@@ -157,3 +157,25 @@ main .hero .right_hero .inside-right .list-right .btn-main-right {
 main .hero .right_hero .inside-right .logo-right {
   padding: 30px;
 }
+main .main-nav {
+  height: 50px;
+  width: 65%;
+  padding: 20px;
+}
+main .main-nav .hero-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  align-items: center;
+}
+main .main-nav .hero-list li:first-child {
+  border-bottom: 2px solid black;
+  padding: 10px 0;
+}
+main .main-nav .hero-list a {
+  text-decoration: none;
+  color: #555555;
+  padding: 10px 0;
+}

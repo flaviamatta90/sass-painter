@@ -92,4 +92,28 @@ main {
       }
     }
   }
+
+  .main-nav{
+    height: 50px;
+    width: 65%;
+    padding: 20px;
+    .hero-list{
+      @include listInline;
+      align-items: center;
+
+      li:first-child{
+        border-bottom: 2px solid black;
+        padding: 10px 0;
+      }
+
+      a{
+        @include aColorList;
+        color:#555555;
+        padding: 10px 0;
+      }
+
+    }
+
+  }
+
 }
