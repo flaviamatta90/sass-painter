@@ -7,30 +7,30 @@
   cursor: pointer;
 }
 
-.third-section .third-section-container .inside-section, .second-section .second-section-container .inside-section, section .section-container .inside-section {
+.third-section-container .inside-section, .second-section-container .inside-section, section .section-container .inside-section {
   width: 70%;
   margin: auto;
   line-height: 30px;
 }
-.third-section .third-section-container .inside-section h2, .second-section .second-section-container .inside-section h2, section .section-container .inside-section h2 {
+.third-section-container .inside-section h2, .second-section-container .inside-section h2, section .section-container .inside-section h2 {
   font-size: 30px;
   text-align: center;
   color: #fff;
   padding-top: 100px;
 }
-.third-section .third-section-container .inside-section h4, .second-section .second-section-container .inside-section h4, section .section-container .inside-section h4 {
+.third-section-container .inside-section h4, .second-section-container .inside-section h4, section .section-container .inside-section h4 {
   text-align: center;
   color: #fff;
   padding: 30px;
   max-width: 70%;
   margin: auto;
 }
-.third-section .third-section-container .inside-section .pdf, .second-section .second-section-container .inside-section .pdf, section .section-container .inside-section .pdf {
+.third-section-container .inside-section .pdf, .second-section-container .inside-section .pdf, section .section-container .inside-section .pdf {
   text-align: center;
   color: #fff;
   padding: 20px;
 }
-.third-section .third-section-container .inside-section .pdf i, .second-section .second-section-container .inside-section .pdf i, section .section-container .inside-section .pdf i {
+.third-section-container .inside-section .pdf i, .second-section-container .inside-section .pdf i, section .section-container .inside-section .pdf i {
   border-radius: 100%;
   border: 1px solid #fff;
   vertical-align: middle;
@@ -39,7 +39,7 @@
   font-size: 20px;
   padding: 5px;
 }
-.third-section .third-section-container .inside-section img, .second-section .second-section-container .inside-section img, section .section-container .inside-section img {
+.third-section-container .inside-section img, .second-section-container .inside-section img, section .section-container .inside-section img {
   margin-left: 5%;
 }
 
@@ -224,13 +224,13 @@ section .section-container {
   background-image: url("../img/bg-section-start.jpg");
   width: 100%;
 }
-.second-section .second-section-container {
+.second-section-container {
   background-color: #fff;
 }
-.second-section .second-section-container .inside-section h2, .second-section .second-section-container .inside-section h4 {
+.second-section-container .inside-section h2, .second-section-container .inside-section h4 {
   color: #333333;
 }
-.second-section .second-section-container .inside-section .howl .fa-angle-left {
+.second-section-container .inside-section .howl .fa-angle-left {
   width: 35px;
   height: 35px;
   padding: 0 8px;
@@ -243,12 +243,12 @@ section .section-container {
   float: left;
   margin-left: 35px;
 }
-.second-section .second-section-container .inside-section .howl img {
+.second-section-container .inside-section .howl img {
   margin: auto;
   width: 80%;
   margin-left: 5%;
 }
-.second-section .second-section-container .inside-section .howl .fa-angle-right {
+.second-section-container .inside-section .howl .fa-angle-right {
   width: 35px;
   height: 35px;
   padding: 0 8px;
@@ -273,32 +273,32 @@ section .parallax {
   background-image: url("../img/walkman.jpeg");
 }
 
-.third-section .third-section-container {
+.third-section-container {
   background-color: #222222;
 }
-.third-section .third-section-container .inside-section img {
+.third-section-container .inside-section img {
   margin-left: 10%;
   max-width: 80%;
 }
-.third-section .third-section-container .inside-section .troll {
+.third-section-container .inside-section .troll {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-top: 100px;
 }
-.third-section .third-section-container .inside-section .troll-text {
+.third-section-container .inside-section .troll-text {
   width: 50%;
 }
-.third-section .third-section-container .inside-section .troll-text h2 {
+.third-section-container .inside-section .troll-text h2 {
   text-align: left;
 }
-.third-section .third-section-container .inside-section .troll-text h4 {
+.third-section-container .inside-section .troll-text h4 {
   text-align: left;
   padding: 30px 0;
   max-width: 75%;
   margin: 0;
 }
-.third-section .third-section-container .inside-section .troll-img img {
+.third-section-container .inside-section .troll-img img {
   width: 90%;
 }
 
@@ -311,4 +311,20 @@ section .second-parallax {
   height: 500px;
   background-attachment: fixed;
   background-image: url("../img/eys.jpeg");
+}
+
+.second-section-container {
+  background-color: #fff;
+}
+.second-section-container .inside-section h2 {
+  color: #333333;
+}
+.second-section-container .inside-section .img-list {
+  display: flex;
+  justify-content: space-between;
+}
+.second-section-container .inside-section .img-list img {
+  margin-top: 50px;
+  margin-left: 10px;
+  width: calc(100% / 5);
 }

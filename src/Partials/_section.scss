@@ -11,7 +11,7 @@ section{
 }
 
 .second-section{
-  .second-section-container{
+  &-container{
     background-color: $moreColor;
 
     .inside-section{
@@ -55,7 +55,7 @@ section{
 }
 
 .third-section{
-  .third-section-container{
+  &-container{
     background-color: #222222;
 
     .inside-section{
@@ -98,5 +98,33 @@ section{
     @include imgBackground;
     @include parallax;
     background-image: url("../img/eys.jpeg");
+  }
+}
+
+.second-section{
+  &-container{
+    background-color: $moreColor;
+
+    .inside-section{
+      @extend %sectionCompiled;
+
+
+      h2{
+        color: #333333;
+      }
+
+      .img-list{
+        @include displayFlex;
+
+
+        img{
+          margin-top: 50px;
+          margin-left: 10px;
+          width: calc(100% / 5);
+        }
+
+      }
+
+    }
   }
 }
